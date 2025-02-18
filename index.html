@@ -1,0 +1,39 @@
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="onload()">
+ <center class="container">
+
+   <div id="Mascot-section">
+    <h2>Meet our mascot!</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtWWXSDew5cldDCoDpKcbcW46RCzIzETk9Ew&s" style="display: inline-block; border-style: solid;">
+    <p style="display: inline-block;" id="Dialogue">Hello, I'm Henry! Lets test your math skills!</p>
+   </div>
+   <div id="input-section">
+    <h2>Input your values here:</h2>
+    <label for="A">A</label>
+    <input id="A" type="number" name="A">
+    <br><br>
+    <label for="B">B</label>
+    <input id="B" type="number" name="B">
+   </div>
+    <br>
+    <div id="btn-section">
+        <button onclick="getremainder()" class="btn btn-primary">Get Remainder of a and b</button>
+        <button onclick="raiseto()" class="btn btn-primary">a raised to b</button>
+        <button onclick="product()" class="btn btn-primary">a * b</button>
+        <button onclick="IsEqual()" class="btn btn-primary">Is a == b?</button> 
+    </div>
+ </center>
+</body>
