@@ -35,7 +35,7 @@ function IsEqual(){
     a = parseFloat(a);
     b = parseFloat(b);
 
-    window.alert("Is a == b?" + a==b);
+    window.alert("Is a == b?" + (a == b));
 }
 
 function onload(){
